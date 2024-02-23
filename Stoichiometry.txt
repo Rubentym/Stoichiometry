@@ -1,0 +1,8 @@
+def stoichiometry(moles_substance, stoichiometric_coefficient):
+    return moles_substance * stoichiometric_coefficient
+
+# Example usage:
+moles_H2O = 2  # Moles of water (H2O)
+stoichiometric_coefficient = 2  # Coefficient of H2O in reaction
+moles_H2 = stoichiometry(moles_H2O, stoichiometric_coefficient)
+print("Moles of H2 produced:", moles_H2)
